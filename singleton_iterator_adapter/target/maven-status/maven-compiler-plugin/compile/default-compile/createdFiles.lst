@@ -1,0 +1,7 @@
+com\mycompany\singleton_iterator_adapter\Medico.class
+com\mycompany\singleton_iterator_adapter\AdaptadorEnfermeiro.class
+com\mycompany\singleton_iterator_adapter\Enfermeiro.class
+com\mycompany\singleton_iterator_adapter\Client.class
+com\mycompany\singleton_iterator_adapter\Prontuario.class
+com\mycompany\singleton_iterator_adapter\AdaptadorMedico.class
+com\mycompany\singleton_iterator_adapter\IAdapter.class
