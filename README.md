@@ -7,3 +7,4 @@ Design Patterns:
 - Singleton
 - Iterator
 - Adapter
+- Abstract Factory
