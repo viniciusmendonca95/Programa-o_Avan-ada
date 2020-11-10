@@ -7,3 +7,9 @@ Design Patterns:
 - Singleton
 - Iterator
 - Adapter
+- Abstract Factory
+
+
+Criação de uma API com SpringBoot:
+
+- Criação de end points básicos
