@@ -12,23 +12,32 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApplicationController {
 	
 	@GetMapping("/")
-	public String home() {
-		return "Hello world!";
+	public String metodoGet() {
+		return "Este endpoint utiliza o verbo GET.";
 	}
 	
-	@PostMapping("/{dado}")
-	public String umMetodoPost(@PathVariable("dado") String umDado) {
-		return "O verbo HTTP utilizado foi o POST!" + umDado;
+	@PostMapping("/")
+	public String metodoPost() {
+		return "Este endpoint utiliza o verbo POST.";
+	}
+	
+	@PostMapping("/{estudante}")
+	public String metodoPostViaUrl(@PathVariable("estudante") String dado) {
+		return "Este endpoint recebe o nome " + dado + " via URL";
 	}
 	
 	@PutMapping("/")
-	public String umMetodoPut(@RequestBody String umDado) {
-		return "O verbo HTTP utilizado foi o PUT!" + umDado;
+	public String metodoPut() {
+		return "Este endpoint utiliza o verbo PUT";
 	}
 	
-	@DeleteMapping("/")
-	public String umMetodoDelete() {
-		return "O verbo HTTP utilizado foi o Delete!";
+	@PutMapping("/estudante")
+	public String metodoPutViaCorpo(@RequestBody String dado) {
+		return "Este endpoint recebe o nome " + dado + " via Corpo de Requisição";
 	}
 
+	@DeleteMapping("/")
+	public String metodoDelete() {
+		return "Este endpoint utiliza o verbo DELETE";
+	}
 }
