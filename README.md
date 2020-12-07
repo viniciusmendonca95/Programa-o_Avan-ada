@@ -14,3 +14,5 @@ Criação de uma API com SpringBoot:
 
 - Criação de end points básicos
 - Criação da API Clientes
+- Criação da API do Exercício de Conta Corrente
+- Criação da API da Prova de Programação Avançada
